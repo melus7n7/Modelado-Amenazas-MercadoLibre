@@ -1,0 +1,23 @@
+{
+  "version": "2.3.0",
+  "summary": {
+    "title": "Modelo de amenazas \"Mercado Libre\"",
+    "owner": "Guillermo Vera",
+    "description": "“Mercado Libre” es una plataforma web confiable y segura para la compra y venta de productos. En esta aplicación se garantizarán la protección de los datos sensibles de los usuarios, reduciendo riesgos y huecos de seguridad, cumpliendo con las obligaciones legales relacionadas con la seguridad y privacidad.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Sulem Martínez Aguilar"
+      },
+      {
+        "name": "Jesús Jacob Montiel Salas"
+      }
+    ],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "Sulem Martínez Aguilar y Jesús Jacob Montiel Salas",
+    "threatTop": 0
+  }
+}
