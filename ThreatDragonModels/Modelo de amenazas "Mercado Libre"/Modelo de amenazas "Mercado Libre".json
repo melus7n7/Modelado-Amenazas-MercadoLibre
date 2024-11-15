@@ -15,8 +15,19 @@
         "name": "Jesús Jacob Montiel Salas"
       }
     ],
-    "diagrams": [],
-    "diagramTop": 0,
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Diagrama de flujo de datos de la aplicación",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.3.0",
+        "cells": [],
+        "description": "Para la aplicación de Mercado Libre"
+      }
+    ],
+    "diagramTop": 1,
     "reviewer": "Sulem Martínez Aguilar y Jesús Jacob Montiel Salas",
     "threatTop": 0
   }
