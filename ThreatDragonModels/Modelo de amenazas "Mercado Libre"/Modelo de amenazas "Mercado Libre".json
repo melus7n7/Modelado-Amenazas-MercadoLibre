@@ -298,8 +298,8 @@
               "y": -2333
             },
             "size": {
-              "width": 90,
-              "height": 90
+              "width": 130,
+              "height": 130
             },
             "attrs": {
               "text": {
@@ -409,13 +409,6 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           }
         ],
