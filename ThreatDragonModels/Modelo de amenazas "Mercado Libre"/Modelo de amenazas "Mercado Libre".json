@@ -45,6 +45,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -128,7 +129,6 @@
               ]
             },
             "id": "f9e277d1-c182-4119-9680-f83bce8538d5",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Administrador",
@@ -161,6 +161,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -244,7 +245,6 @@
               ]
             },
             "id": "ac3d457c-7f94-4ea5-bd00-77133192b8fc",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Cliente",
@@ -287,7 +287,7 @@
                 "y": -2490
               },
               {
-                "x": -6180,
+                "x": -6130,
                 "y": -2490
               }
             ]
@@ -313,6 +313,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -396,7 +397,6 @@
               ]
             },
             "id": "b770a7bb-2e8d-4349-83dc-05edc2b470d5",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "Servidor Front-end",
@@ -432,6 +432,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -515,7 +516,6 @@
               ]
             },
             "id": "28a61021-c807-4f05-bb1d-083ec69159c0",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
               "name": "Servidor Back-end",
@@ -554,6 +554,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -637,7 +638,6 @@
               ]
             },
             "id": "221b0e62-5879-48c1-a3b7-63040afe2908",
-            "zIndex": 13,
             "data": {
               "type": "tm.Store",
               "name": "Base de datos Mercado Libre",
@@ -655,14 +655,17 @@
           },
           {
             "position": {
-              "x": -5880,
-              "y": -2220
+              "x": -6070,
+              "y": -2190
             },
             "size": {
               "width": 120,
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Archivo configuración"
+              },
               "topLine": {
                 "strokeWidth": 1.5,
                 "strokeDasharray": null
@@ -674,6 +677,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -757,10 +761,9 @@
               ]
             },
             "id": "de80414c-436f-4235-9cc2-1426d5fb86b6",
-            "zIndex": 14,
             "data": {
               "type": "tm.Store",
-              "name": "Store",
+              "name": "Archivo configuración",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -771,6 +774,13 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           }
         ],
