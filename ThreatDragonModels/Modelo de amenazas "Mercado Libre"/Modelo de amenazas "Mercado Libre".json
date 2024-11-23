@@ -312,60 +312,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Petición HTTP",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Petición HTTP"
-            ],
-            "id": "62d4dccb-5025-4048-947f-b0bcaed6545f",
-            "source": {
-              "cell": "f9e277d1-c182-4119-9680-f83bce8538d5",
-              "port": "93b592b9-05d7-43c9-8668-d836536827d6"
-            },
-            "target": {
-              "cell": "b770a7bb-2e8d-4349-83dc-05edc2b470d5",
-              "port": "8e61574b-3cf7-4d92-a940-e514588bf75b"
-            },
-            "vertices": [
-              {
-                "x": -6307,
-                "y": -2500
-              },
-              {
-                "x": -6330,
-                "y": -2380
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Respuesta HTTP",
               "description": "",
               "outOfScope": false,
@@ -401,6 +347,172 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  }
+                }
+              }
+            ],
+            "id": "83b373b8-c5a5-4ad4-bd31-a5846a8907b6",
+            "source": {
+              "x": -6110,
+              "y": -2550
+            },
+            "target": {
+              "cell": "b770a7bb-2e8d-4349-83dc-05edc2b470d5",
+              "port": "56f5437a-9fc8-42ca-8532-7bba6b255118"
+            },
+            "vertices": [
+              {
+                "x": -6000,
+                "y": -2440
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  }
+                }
+              }
+            ],
+            "id": "7c0597b9-17af-4c90-8f82-f4f6bb862daa",
+            "source": {
+              "cell": "b770a7bb-2e8d-4349-83dc-05edc2b470d5",
+              "port": "dae749d0-d7f1-4687-ab16-928e7ba31ca2"
+            },
+            "target": {
+              "cell": "ac3d457c-7f94-4ea5-bd00-77133192b8fc",
+              "port": "a173eeae-89d3-47f9-833b-d60e3c24f389"
+            },
+            "vertices": [
+              {
+                "x": -6090,
+                "y": -2430
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Petición HTTP",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Petición HTTP"
+            ],
+            "id": "62d4dccb-5025-4048-947f-b0bcaed6545f",
+            "source": {
+              "cell": "f9e277d1-c182-4119-9680-f83bce8538d5",
+              "port": "93b592b9-05d7-43c9-8668-d836536827d6"
+            },
+            "target": {
+              "cell": "b770a7bb-2e8d-4349-83dc-05edc2b470d5",
+              "port": "8e61574b-3cf7-4d92-a940-e514588bf75b"
+            },
+            "vertices": [
+              {
+                "x": -6307,
+                "y": -2500
+              },
+              {
+                "x": -6330,
+                "y": -2380
+              }
+            ]
+          },
+          {
             "position": {
               "x": -6251.5,
               "y": -2370
@@ -411,7 +523,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Servidor Front-end"
+                "text": "Aplicación Front-end"
               },
               "body": {
                 "stroke": "#333333",
@@ -507,7 +619,7 @@
             "id": "b770a7bb-2e8d-4349-83dc-05edc2b470d5",
             "data": {
               "type": "tm.Process",
-              "name": "Servidor Front-end",
+              "name": "Aplicación Front-end",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
