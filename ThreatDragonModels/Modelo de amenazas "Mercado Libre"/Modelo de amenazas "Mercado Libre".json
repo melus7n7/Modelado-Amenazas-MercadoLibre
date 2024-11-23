@@ -257,46 +257,6 @@
             }
           },
           {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Usuario/Aplicación Front-end Límite",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "labels": [
-              "Usuario/Aplicación Front-end Límite"
-            ],
-            "id": "6e4edaf9-0e30-4297-bf02-12740d6693ef",
-            "source": {
-              "x": -6530,
-              "y": -2530
-            },
-            "target": {
-              "x": -6090,
-              "y": -2600
-            },
-            "vertices": [
-              {
-                "x": -6410,
-                "y": -2490
-              },
-              {
-                "x": -6230,
-                "y": -2470
-              },
-              {
-                "x": -6040,
-                "y": -2490
-              }
-            ]
-          },
-          {
             "shape": "flow",
             "attrs": {
               "line": {
@@ -522,17 +482,97 @@
             ],
             "id": "e2f57cb6-5f77-42f0-969b-cfc668d73116",
             "source": {
-              "x": -6290,
-              "y": -2140
+              "x": -6500,
+              "y": -2280
             },
             "target": {
-              "x": -5880,
-              "y": -2360
+              "x": -5890,
+              "y": -2320
             },
             "vertices": [
               {
-                "x": -6050,
-                "y": -2170
+                "x": -6360,
+                "y": -2210
+              },
+              {
+                "x": -6100,
+                "y": -2210
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Usuario/Aplicación Front-end Límite",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Usuario/Aplicación Front-end Límite"
+            ],
+            "id": "6e4edaf9-0e30-4297-bf02-12740d6693ef",
+            "source": {
+              "x": -6530,
+              "y": -2530
+            },
+            "target": {
+              "x": -6020,
+              "y": -2600
+            },
+            "vertices": [
+              {
+                "x": -6410,
+                "y": -2490
+              },
+              {
+                "x": -6230,
+                "y": -2470
+              },
+              {
+                "x": -6040,
+                "y": -2490
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Servidor Back-end/\nBase datos Límite",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Servidor Back-end/\nBase datos Límite"
+            ],
+            "id": "38843da4-5d5a-4fe3-ad09-7f7956f52455",
+            "source": {
+              "x": -6420,
+              "y": -1820
+            },
+            "target": {
+              "x": -5940,
+              "y": -1880
+            },
+            "vertices": [
+              {
+                "x": -6340,
+                "y": -1925
+              },
+              {
+                "x": -6060,
+                "y": -1925
               }
             ]
           },
@@ -657,8 +697,8 @@
           },
           {
             "position": {
-              "x": -5890,
-              "y": -2310
+              "x": -6320,
+              "y": -2130
             },
             "size": {
               "width": 130,
@@ -776,8 +816,8 @@
           },
           {
             "position": {
-              "x": -5561,
-              "y": -2300
+              "x": -6246.5,
+              "y": -1870
             },
             "size": {
               "width": 120,
@@ -899,8 +939,8 @@
           },
           {
             "position": {
-              "x": -5900,
-              "y": -2130
+              "x": -6040,
+              "y": -2095
             },
             "size": {
               "width": 120,
