@@ -255,6 +255,42 @@
               "providesAuthentication": false,
               "threats": []
             }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Usuario Web/Límite",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Usuario Web/Límite"
+            ],
+            "id": "6e4edaf9-0e30-4297-bf02-12740d6693ef",
+            "source": {
+              "x": -6280,
+              "y": -2460
+            },
+            "target": {
+              "x": -5840,
+              "y": -2530
+            },
+            "vertices": [
+              {
+                "x": -6140,
+                "y": -2420
+              },
+              {
+                "x": -5930,
+                "y": -2420
+              }
+            ]
           }
         ],
         "description": "Para la aplicación de Mercado Libre"
