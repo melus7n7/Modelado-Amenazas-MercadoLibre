@@ -627,6 +627,56 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Resultado consulta",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Resultado consulta"
+            ],
+            "id": "e54e0db4-2c43-4b27-b1c3-0edee586be43",
+            "source": {
+              "cell": "221b0e62-5879-48c1-a3b7-63040afe2908",
+              "port": "c7fb39a8-94e3-492b-b8a1-6bb4d3fb1514"
+            },
+            "target": {
+              "cell": "28a61021-c807-4f05-bb1d-083ec69159c0",
+              "port": "dae749d0-d7f1-4687-ab16-928e7ba31ca2"
+            },
+            "vertices": [
+              {
+                "x": -5810,
+                "y": -2220
+              }
+            ]
+          },
+          {
             "position": {
               "x": -6256.5,
               "y": -2370
