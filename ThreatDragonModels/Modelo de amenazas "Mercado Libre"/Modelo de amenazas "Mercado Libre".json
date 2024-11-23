@@ -472,13 +472,13 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Aplicación Front-end/Servidor Back-end Límite",
+              "name": "Aplicación Front-end/\nServidor Back-end Límite",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             },
             "labels": [
-              "Aplicación Front-end/Servidor Back-end Límite"
+              "Aplicación Front-end/\nServidor Back-end Límite"
             ],
             "id": "e2f57cb6-5f77-42f0-969b-cfc668d73116",
             "source": {
@@ -508,13 +508,13 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Usuario/Aplicación Front-end Límite",
+              "name": "Usuario/\nAplicación Front-end Límite",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             },
             "labels": [
-              "Usuario/Aplicación Front-end Límite"
+              "Usuario/\nAplicación Front-end Límite"
             ],
             "id": "6e4edaf9-0e30-4297-bf02-12740d6693ef",
             "source": {
