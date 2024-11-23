@@ -677,6 +677,56 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Leer archivo \nconfiguración",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Leer archivo \nconfiguración"
+            ],
+            "id": "bcff6ad9-15f9-4f27-9eed-060fd4acfb2d",
+            "source": {
+              "x": -6200,
+              "y": -2040
+            },
+            "target": {
+              "cell": "28a61021-c807-4f05-bb1d-083ec69159c0",
+              "port": "8e61574b-3cf7-4d92-a940-e514588bf75b"
+            },
+            "vertices": [
+              {
+                "x": -6100,
+                "y": -2030
+              }
+            ]
+          },
+          {
             "position": {
               "x": -6256.5,
               "y": -2370
