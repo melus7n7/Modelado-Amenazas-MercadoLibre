@@ -396,8 +396,8 @@
             ],
             "id": "7c0597b9-17af-4c90-8f82-f4f6bb862daa",
             "source": {
-              "cell": "b770a7bb-2e8d-4349-83dc-05edc2b470d5",
-              "port": "dae749d0-d7f1-4687-ab16-928e7ba31ca2"
+              "x": -6130,
+              "y": -2360
             },
             "target": {
               "cell": "ac3d457c-7f94-4ea5-bd00-77133192b8fc",
@@ -472,42 +472,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Aplicación Front-end/\nServidor Back-end Límite",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "labels": [
-              "Aplicación Front-end/\nServidor Back-end Límite"
-            ],
-            "id": "e2f57cb6-5f77-42f0-969b-cfc668d73116",
-            "source": {
-              "x": -6500,
-              "y": -2280
-            },
-            "target": {
-              "x": -5890,
-              "y": -2320
-            },
-            "vertices": [
-              {
-                "x": -6360,
-                "y": -2210
-              },
-              {
-                "x": -6100,
-                "y": -2210
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
               "name": "Usuario/\nAplicación Front-end Límite",
               "description": "",
               "isTrustBoundary": true,
@@ -548,6 +512,92 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
+              "name": "Aplicación Front-end/\nServidor Back-end Límite",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Aplicación Front-end/\nServidor Back-end Límite"
+            ],
+            "id": "e2f57cb6-5f77-42f0-969b-cfc668d73116",
+            "source": {
+              "x": -6450,
+              "y": -2180
+            },
+            "target": {
+              "x": -5880,
+              "y": -2400
+            },
+            "vertices": [
+              {
+                "x": -6250,
+                "y": -2180
+              },
+              {
+                "x": -5880,
+                "y": -2300
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Consulta",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Consulta"
+            ],
+            "id": "415e941a-c61d-4183-be70-75a494147d4b",
+            "source": {
+              "x": -5970,
+              "y": -2060
+            },
+            "target": {
+              "cell": "221b0e62-5879-48c1-a3b7-63040afe2908",
+              "port": "f26ca2f8-e95c-4f11-ad39-b0c0cd534fb0"
+            },
+            "vertices": [
+              {
+                "x": -5840,
+                "y": -1980
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
               "name": "Servidor Back-end/\nBase datos Límite",
               "description": "",
               "isTrustBoundary": true,
@@ -558,27 +608,27 @@
             ],
             "id": "38843da4-5d5a-4fe3-ad09-7f7956f52455",
             "source": {
-              "x": -6420,
-              "y": -1820
+              "x": -5700,
+              "y": -1970
             },
             "target": {
-              "x": -5940,
-              "y": -1880
+              "x": -5620,
+              "y": -2170
             },
             "vertices": [
               {
-                "x": -6340,
-                "y": -1925
+                "x": -5790,
+                "y": -2050
               },
               {
-                "x": -6060,
-                "y": -1925
+                "x": -5770,
+                "y": -2190
               }
             ]
           },
           {
             "position": {
-              "x": -6251.5,
+              "x": -6256.5,
               "y": -2370
             },
             "size": {
@@ -697,8 +747,8 @@
           },
           {
             "position": {
-              "x": -6320,
-              "y": -2130
+              "x": -6030,
+              "y": -2190
             },
             "size": {
               "width": 130,
@@ -816,8 +866,8 @@
           },
           {
             "position": {
-              "x": -6246.5,
-              "y": -1870
+              "x": -5740,
+              "y": -2110
             },
             "size": {
               "width": 120,
@@ -939,8 +989,8 @@
           },
           {
             "position": {
-              "x": -6040,
-              "y": -2095
+              "x": -6270,
+              "y": -2100
             },
             "size": {
               "width": 120,
