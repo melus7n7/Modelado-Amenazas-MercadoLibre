@@ -366,7 +366,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Petición HTTP",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -378,13 +378,7 @@
               "threats": []
             },
             "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Data Flow"
-                  }
-                }
-              }
+              "Petición HTTP"
             ],
             "id": "83b373b8-c5a5-4ad4-bd31-a5846a8907b6",
             "source": {
@@ -397,8 +391,8 @@
             },
             "vertices": [
               {
-                "x": -6000,
-                "y": -2440
+                "x": -5990,
+                "y": -2410
               }
             ]
           },
@@ -422,7 +416,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Respuesta HTTP",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -434,13 +428,7 @@
               "threats": []
             },
             "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Data Flow"
-                  }
-                }
-              }
+              "Respuesta HTTP"
             ],
             "id": "7c0597b9-17af-4c90-8f82-f4f6bb862daa",
             "source": {
