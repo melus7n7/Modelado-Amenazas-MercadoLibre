@@ -727,6 +727,106 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Petición HTTP",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Petición HTTP"
+            ],
+            "id": "7a980120-ac81-4dc6-9531-c20b96babcc5",
+            "source": {
+              "x": -6130,
+              "y": -2280
+            },
+            "target": {
+              "cell": "28a61021-c807-4f05-bb1d-083ec69159c0",
+              "port": "dae749d0-d7f1-4687-ab16-928e7ba31ca2"
+            },
+            "vertices": [
+              {
+                "x": -6000,
+                "y": -2280
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Respuesta HTTP",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Respuesta HTTP"
+            ],
+            "id": "743c7b3e-61f9-481f-8060-bcde52dd123d",
+            "source": {
+              "x": -6030,
+              "y": -2130
+            },
+            "target": {
+              "cell": "b770a7bb-2e8d-4349-83dc-05edc2b470d5",
+              "port": "f01827b2-d1fb-485f-ac77-e4d68367299f"
+            },
+            "vertices": [
+              {
+                "x": -6170,
+                "y": -2150
+              }
+            ]
+          },
+          {
             "position": {
               "x": -6256.5,
               "y": -2370
