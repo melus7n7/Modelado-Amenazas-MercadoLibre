@@ -837,7 +837,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Aplicación Front-end"
+                "text": "Servidor Front-end"
               },
               "body": {
                 "stroke": "#333333",
@@ -933,7 +933,7 @@
             "id": "b770a7bb-2e8d-4349-83dc-05edc2b470d5",
             "data": {
               "type": "tm.Process",
-              "name": "Aplicación Front-end",
+              "name": "Servidor Front-end",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
