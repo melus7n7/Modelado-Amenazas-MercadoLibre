@@ -837,7 +837,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Servidor Front-end"
+                "text": "Servidor \nFront-end"
               },
               "body": {
                 "stroke": "#333333",
@@ -933,7 +933,7 @@
             "id": "b770a7bb-2e8d-4349-83dc-05edc2b470d5",
             "data": {
               "type": "tm.Process",
-              "name": "Servidor Front-end",
+              "name": "Servidor \nFront-end",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -956,7 +956,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Servidor Back-end"
+                "text": "Servidor \nBack-end"
               },
               "body": {
                 "stroke": "#333333",
@@ -1052,7 +1052,7 @@
             "id": "28a61021-c807-4f05-bb1d-083ec69159c0",
             "data": {
               "type": "tm.Process",
-              "name": "Servidor Back-end",
+              "name": "Servidor \nBack-end",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
