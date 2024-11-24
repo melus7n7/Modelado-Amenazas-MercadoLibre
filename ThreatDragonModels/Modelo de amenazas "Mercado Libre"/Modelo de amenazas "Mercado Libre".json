@@ -615,7 +615,26 @@
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "2e316e3c-205e-42b5-a9f7-74f04abe1f8f",
+                  "title": "Ataque Man in the middle ",
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Un atacante podría interceptar las consultas de la base de datos en tránsito y obtener información confidencial, como credenciales de la base de datos, parámetros de consulta o resultados de la consulta (es poco probable ya que el flujo de datos se realiza a través de una red privada). ",
+                  "mitigation": "Aplicar una conexión cifrada en el servidor de base de datos. \nMitigada\n",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 14,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
             },
             "labels": [
               "Resultado consulta"
@@ -1532,7 +1551,40 @@
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "4e8b339c-c672-4cd1-819a-875712f89fb0",
+                  "title": "Acceso no autorizado ",
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Un atacante podría enviar una consulta a la base de datos de Mercado Libre. ",
+                  "mitigation": "Utilizar un usuario con contraseña segura",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 16,
+                  "score": ""
+                },
+                {
+                  "id": "16d94f60-3828-4ad1-a8fe-26b19ee7d6ca",
+                  "title": "Robo de credenciales ",
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Un atacante podría obtener las credenciales de la base de datos y utilizarlas para realizar consultas no autorizadas",
+                  "mitigation": "Utilice un firewall para restringir el acceso a la base de datos únicamente a la dirección IP del trabajador en segundo plano. ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 17,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 2,
+                "denialOfService": 0
+              }
             }
           },
           {
@@ -1655,7 +1707,27 @@
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "0dcb1b5c-ec4b-41d9-b57c-f2845458c0ef",
+                  "title": "Modificación sin autorización ",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Un atacante podría modificar el archivo de configuración sin autorización",
+                  "mitigation": "Las páginas solo tienen acceso de lectura. Únicamente un usuario administrador puede tener acceso de escritura",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 15,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
             }
           },
           {
@@ -1798,6 +1870,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "Sulem Martínez Aguilar y Jesús Jacob Montiel Salas",
-    "threatTop": 13
+    "threatTop": 17
   }
 }
