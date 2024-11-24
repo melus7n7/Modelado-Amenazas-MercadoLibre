@@ -301,11 +301,11 @@
             },
             "vertices": [
               {
-                "x": -6420,
+                "x": -6400,
                 "y": -2370
               },
               {
-                "x": -6400,
+                "x": -6380,
                 "y": -2480
               }
             ]
@@ -346,7 +346,7 @@
             ],
             "id": "83b373b8-c5a5-4ad4-bd31-a5846a8907b6",
             "source": {
-              "x": -6110,
+              "x": -6090,
               "y": -2550
             },
             "target": {
@@ -355,7 +355,7 @@
             },
             "vertices": [
               {
-                "x": -5990,
+                "x": -5970,
                 "y": -2410
               }
             ]
@@ -405,7 +405,7 @@
             },
             "vertices": [
               {
-                "x": -6090,
+                "x": -6070,
                 "y": -2430
               }
             ]
@@ -455,11 +455,11 @@
             },
             "vertices": [
               {
-                "x": -6307,
+                "x": -6287,
                 "y": -2500
               },
               {
-                "x": -6330,
+                "x": -6310,
                 "y": -2380
               }
             ]
@@ -501,92 +501,6 @@
               {
                 "x": -6040,
                 "y": -2490
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Aplicación Front-end/\nServidor Back-end Límite",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "labels": [
-              "Aplicación Front-end/\nServidor Back-end Límite"
-            ],
-            "id": "e2f57cb6-5f77-42f0-969b-cfc668d73116",
-            "source": {
-              "x": -6450,
-              "y": -2180
-            },
-            "target": {
-              "x": -5880,
-              "y": -2400
-            },
-            "vertices": [
-              {
-                "x": -6250,
-                "y": -2180
-              },
-              {
-                "x": -5880,
-                "y": -2300
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Consulta",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Consulta"
-            ],
-            "id": "415e941a-c61d-4183-be70-75a494147d4b",
-            "source": {
-              "x": -5970,
-              "y": -2060
-            },
-            "target": {
-              "cell": "221b0e62-5879-48c1-a3b7-63040afe2908",
-              "port": "f26ca2f8-e95c-4f11-ad39-b0c0cd534fb0"
-            },
-            "vertices": [
-              {
-                "x": -5840,
-                "y": -1980
               }
             ]
           },
@@ -812,7 +726,7 @@
             ],
             "id": "743c7b3e-61f9-481f-8060-bcde52dd123d",
             "source": {
-              "x": -6030,
+              "x": -6010,
               "y": -2130
             },
             "target": {
@@ -821,19 +735,109 @@
             },
             "vertices": [
               {
-                "x": -6170,
+                "x": -6150,
                 "y": -2150
               }
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Consulta",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Consulta"
+            ],
+            "id": "415e941a-c61d-4183-be70-75a494147d4b",
+            "source": {
+              "cell": "28a61021-c807-4f05-bb1d-083ec69159c0",
+              "port": "f01827b2-d1fb-485f-ac77-e4d68367299f"
+            },
+            "target": {
+              "cell": "221b0e62-5879-48c1-a3b7-63040afe2908",
+              "port": "f26ca2f8-e95c-4f11-ad39-b0c0cd534fb0"
+            },
+            "vertices": [
+              {
+                "x": -5940,
+                "y": -2030
+              },
+              {
+                "x": -5840,
+                "y": -1980
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Aplicación Front-end/\nServidor Back-end Límite",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Aplicación Front-end/\nServidor Back-end Límite"
+            ],
+            "id": "e2f57cb6-5f77-42f0-969b-cfc668d73116",
+            "source": {
+              "x": -6360,
+              "y": -2130
+            },
+            "target": {
+              "x": -5880,
+              "y": -2400
+            },
+            "vertices": [
+              {
+                "x": -6250,
+                "y": -2180
+              },
+              {
+                "x": -5880,
+                "y": -2300
+              }
+            ]
+          },
+          {
             "position": {
-              "x": -6256.5,
+              "x": -6240,
               "y": -2370
             },
             "size": {
-              "width": 130,
-              "height": 130
+              "width": 100,
+              "height": 100
             },
             "attrs": {
               "text": {
@@ -947,12 +951,12 @@
           },
           {
             "position": {
-              "x": -6030,
+              "x": -6010,
               "y": -2190
             },
             "size": {
-              "width": 130,
-              "height": 130
+              "width": 90,
+              "height": 90
             },
             "attrs": {
               "text": {
@@ -1189,8 +1193,8 @@
           },
           {
             "position": {
-              "x": -6330,
-              "y": -2060
+              "x": -6280,
+              "y": -2100
             },
             "size": {
               "width": 120,
