@@ -1531,7 +1531,32 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "0a8ed0ce-83d4-4d35-9683-74160d6f4412",
+                  "title": "Suplantación de identidad",
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Acción de amenaza destinada a acceder y utilizar las credenciales de otro usuario, como el nombre de usuario y la contraseña",
+                  "mitigation": "1.\tAutenticación adecuada \n2.\tProteger datos secretos \n3.\tNo almacenar secretos (Uso de JWT)",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "repudiation": 0
+              }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           }
         ],
@@ -1540,6 +1565,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "Sulem Martínez Aguilar y Jesús Jacob Montiel Salas",
-    "threatTop": 0
+    "threatTop": 1
   }
 }
