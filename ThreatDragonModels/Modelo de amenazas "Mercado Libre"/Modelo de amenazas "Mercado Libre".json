@@ -296,7 +296,8 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "#333333",
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -316,12 +317,31 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": false,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "21abba66-9c72-4ae8-964e-5c5bf682efb2",
+                  "title": "El flujo de datos debe utilizar HTTP/S ",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Estas solicitudes se transmiten a través de la Internet pública y podrían ser interceptadas por un atacante. ",
+                  "mitigation": "Las solicitudes deberían requerir HTTPS/S. Esto proporcionara confidencialidad e integridad. HTTP no debe ser compatible. Aun no se adquiere la licencia. No mitigada.\n",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 10,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
             },
             "labels": [
               "Respuesta HTTPS"
@@ -420,7 +440,8 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "#333333",
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -440,12 +461,31 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": false,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "3ccf8d0c-a492-45c2-8b3a-d1b7b7378a52",
+                  "title": "El flujo de datos debe utilizar HTTP/S ",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Estas solicitudes se transmiten a través de la Internet pública y podrían ser interceptadas por un atacante",
+                  "mitigation": "Las solicitudes deberían requerir HTTPS/S. Esto proporcionara confidencialidad e integridad. HTTP no debe ser compatible. Aun no se adquiere la licencia. No mitigada.\n",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
             },
             "labels": [
               "Petición HTTPS"
@@ -666,7 +706,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Petición HTTP",
+              "name": "Petición HTTPS",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -678,7 +718,7 @@
               "threats": []
             },
             "labels": [
-              "Petición HTTP"
+              "Petición HTTPS"
             ],
             "id": "7a980120-ac81-4dc6-9531-c20b96babcc5",
             "source": {
@@ -716,7 +756,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Respuesta HTTP",
+              "name": "Respuesta HTTPS",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -728,7 +768,7 @@
               "threats": []
             },
             "labels": [
-              "Respuesta HTTP"
+              "Respuesta HTTPS"
             ],
             "id": "743c7b3e-61f9-481f-8060-bcde52dd123d",
             "source": {
@@ -980,7 +1020,8 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "#333333",
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -1000,12 +1041,31 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": false,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "c17f6c71-8660-4a21-9a13-4e355a805df4",
+                  "title": "El flujo de datos debe utilizar HTTP/S ",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Estas solicitudes se transmiten a través de la Internet pública y podrían ser interceptadas por un atacante. ",
+                  "mitigation": "Las solicitudes deberían requerir HTTPS/S. Esto proporcionara confidencialidad e integridad. HTTP no debe ser compatible.\nAun no se adquiere la licencia. No mitigada.\n",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 11,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
             },
             "labels": [
               "Respuesta HTTPS"
@@ -1698,6 +1758,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "Sulem Martínez Aguilar y Jesús Jacob Montiel Salas",
-    "threatTop": 8
+    "threatTop": 11
   }
 }
