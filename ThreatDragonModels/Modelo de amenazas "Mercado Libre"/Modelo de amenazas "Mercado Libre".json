@@ -874,7 +874,26 @@
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "1f6ee4cb-8376-498c-a594-3183229c022d",
+                  "title": "Ataque Man in the middle",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Un atacante podría interceptar las consultas de la base de datos en tránsito y obtener información confidencial, como credenciales de la base de datos, parámetros de consulta o resultados de la consulta (es poco probable ya que el flujo de datos se realiza a través de una red privada).",
+                  "mitigation": "Aplicar una conexión cifrada en el servidor de base de datos.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 18,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
             },
             "labels": [
               "Consulta"
@@ -1870,6 +1889,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "Sulem Martínez Aguilar y Jesús Jacob Montiel Salas",
-    "threatTop": 17
+    "threatTop": 18
   }
 }
