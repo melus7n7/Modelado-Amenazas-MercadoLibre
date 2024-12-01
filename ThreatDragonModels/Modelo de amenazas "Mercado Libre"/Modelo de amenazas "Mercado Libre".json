@@ -2178,13 +2178,6 @@
                 "informationDisclosure": 0,
                 "denialOfService": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -2303,7 +2296,7 @@
               "threats": [
                 {
                   "id": "82cdb624-d942-400c-85e8-2e8fc6aa0bf1",
-                  "title": "New STRIDE threat",
+                  "title": "Suplantación de identidad ",
                   "status": "Mitigated",
                   "severity": "High",
                   "type": "Spoofing",
@@ -2316,7 +2309,7 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 2,
                 "repudiation": 0
               }
             }
@@ -2875,7 +2868,7 @@
               "threats": [
                 {
                   "id": "82cdb624-d942-400c-85e8-2e8fc6aa0bf1",
-                  "title": "New STRIDE threat",
+                  "title": "Suplantación de identidad ",
                   "status": "Mitigated",
                   "severity": "High",
                   "type": "Spoofing",
@@ -2888,7 +2881,7 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 2,
                 "repudiation": 0
               }
             }
@@ -3009,7 +3002,7 @@
               "threats": [
                 {
                   "id": "82cdb624-d942-400c-85e8-2e8fc6aa0bf1",
-                  "title": "New STRIDE threat",
+                  "title": "Suplantación de identidad ",
                   "status": "Mitigated",
                   "severity": "High",
                   "type": "Spoofing",
@@ -3022,7 +3015,7 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 2,
                 "repudiation": 0
               }
             }
@@ -3202,384 +3195,8 @@
               "protocol": "",
               "threats": [
                 {
-                  "id": "526db2b9-d909-4f4c-8b14-466ab7cd4c81",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Information disclosure",
-                  "description": "Estas solicitudes se transmiten a través de la Internet pública y podrían ser interceptadas por un atacante.  ",
-                  "mitigation": "Las solicitudes deberían requerir HTTPS/S. Esto proporcionara confidencialidad e integridad. HTTP no debe ser compatible. ",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 20,
-                  "score": ""
-                }
-              ],
-              "threatFrequency": {
-                "tampering": 0,
-                "informationDisclosure": 1,
-                "denialOfService": 0
-              }
-            },
-            "labels": [
-              "Petición web"
-            ],
-            "id": "f6a5cfef-84d9-4555-a499-2a4e50bfa270",
-            "source": {
-              "cell": "b7ab3ad9-58e3-4a26-94cc-e2bc178c48ad",
-              "port": "92cb5bdd-3935-4c0a-99fc-c722094ca721"
-            },
-            "target": {
-              "x": 480,
-              "y": 350
-            },
-            "vertices": [
-              {
-                "x": 330,
-                "y": 430
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Petición web",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [
-                {
                   "id": "fc45490d-dd70-436a-8aec-8ac73974ff34",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Information disclosure",
-                  "description": "Estas solicitudes se transmiten a través de la Internet pública y podrían ser interceptadas por un atacante.  ",
-                  "mitigation": "Las solicitudes deberían requerir HTTPS/S. Esto proporcionara confidencialidad e integridad. HTTP no debe ser compatible. ",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 28,
-                  "score": ""
-                },
-                {
-                  "id": "ed2c720b-affd-48e1-9139-c608397d0df6",
-                  "title": "New STRIDE threat",
-                  "status": "Mitigated",
-                  "severity": "High",
-                  "type": "Information disclosure",
-                  "description": "Un atacante podría utilizar un mal mensaje de error para obtener información confidencial ",
-                  "mitigation": "Todas las excepciones se manejan de manera estructurada ",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 33,
-                  "score": ""
-                }
-              ],
-              "threatFrequency": {
-                "tampering": 1,
-                "informationDisclosure": 3,
-                "denialOfService": 0
-              }
-            },
-            "labels": [
-              "Petición web"
-            ],
-            "id": "315fcb10-c37e-4834-ad95-eedc24abeb54",
-            "source": {
-              "cell": "f9d7d702-fd86-4b1d-b4b7-914c6ea54f8e",
-              "port": "9193065c-a207-424e-9c56-777e401f0c91"
-            },
-            "target": {
-              "cell": "32252ee5-1b3a-49eb-8737-1940dbe01006",
-              "port": "b007472f-600e-4073-b462-8bf23977aeba"
-            },
-            "vertices": [
-              {
-                "x": 620,
-                "y": 260
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Petición web",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [
-                {
-                  "id": "526db2b9-d909-4f4c-8b14-466ab7cd4c81",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Information disclosure",
-                  "description": "Estas solicitudes se transmiten a través de la Internet pública y podrían ser interceptadas por un atacante.  ",
-                  "mitigation": "Las solicitudes deberían requerir HTTPS/S. Esto proporcionara confidencialidad e integridad. HTTP no debe ser compatible. ",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 20,
-                  "score": ""
-                }
-              ],
-              "threatFrequency": {
-                "tampering": 0,
-                "informationDisclosure": 2,
-                "denialOfService": 0
-              }
-            },
-            "labels": [
-              "Petición web"
-            ],
-            "id": "b8e5e0f7-55a0-4d9c-8551-62b5fb4d2c9b",
-            "source": {
-              "cell": "94f76414-8a81-4404-87fc-85fc7560c82e",
-              "port": "92cb5bdd-3935-4c0a-99fc-c722094ca721"
-            },
-            "target": {
-              "x": 490,
-              "y": 240
-            },
-            "vertices": [
-              {
-                "x": 350,
-                "y": 170
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Petición web",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [
-                {
-                  "id": "526db2b9-d909-4f4c-8b14-466ab7cd4c81",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Information disclosure",
-                  "description": "Estas solicitudes se transmiten a través de la Internet pública y podrían ser interceptadas por un atacante.  ",
-                  "mitigation": "Las solicitudes deberían requerir HTTPS/S. Esto proporcionara confidencialidad e integridad. HTTP no debe ser compatible. ",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 20,
-                  "score": ""
-                }
-              ],
-              "threatFrequency": {
-                "tampering": 0,
-                "informationDisclosure": 1,
-                "denialOfService": 0
-              }
-            },
-            "labels": [
-              "Petición web"
-            ],
-            "id": "8c964216-aa21-4569-9d29-dcc098808037",
-            "source": {
-              "cell": "465f0472-f3ba-4f05-b032-5752e52817bf",
-              "port": "92cb5bdd-3935-4c0a-99fc-c722094ca721"
-            },
-            "target": {
-              "x": 480,
-              "y": 300
-            },
-            "vertices": [
-              {
-                "x": 340,
-                "y": 330
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Respuesta web",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [
-                {
-                  "id": "526db2b9-d909-4f4c-8b14-466ab7cd4c81",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Information disclosure",
-                  "description": "Estas solicitudes se transmiten a través de la Internet pública y podrían ser interceptadas por un atacante.  ",
-                  "mitigation": "Las solicitudes deberían requerir HTTPS/S. Esto proporcionara confidencialidad e integridad. HTTP no debe ser compatible. ",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 20,
-                  "score": ""
-                },
-                {
-                  "id": "b255faeb-221b-4a4e-a49a-17b2a50dcaa1",
-                  "title": "New STRIDE threat",
-                  "status": "Mitigated",
-                  "severity": "High",
-                  "type": "Information disclosure",
-                  "description": "Un atacante podría utilizar un mal mensaje de error para obtener información confidencial ",
-                  "mitigation": "Todas las excepciones se manejan de manera estructurada ",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 30,
-                  "score": ""
-                }
-              ],
-              "threatFrequency": {
-                "tampering": 1,
-                "informationDisclosure": 2,
-                "denialOfService": 0
-              }
-            },
-            "labels": [
-              "Respuesta web"
-            ],
-            "id": "60e0b3e0-bfff-4d9f-b1e7-99e496fcd0a7",
-            "source": {
-              "x": 480,
-              "y": 330
-            },
-            "target": {
-              "cell": "b7ab3ad9-58e3-4a26-94cc-e2bc178c48ad",
-              "port": "92cb5bdd-3935-4c0a-99fc-c722094ca721"
-            },
-            "vertices": [
-              {
-                "x": 340,
-                "y": 370
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Petición web",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [
-                {
-                  "id": "fc45490d-dd70-436a-8aec-8ac73974ff34",
-                  "title": "New STRIDE threat",
+                  "title": "El flujo de datos debe utilizar HTTP/S  ",
                   "status": "Open",
                   "severity": "High",
                   "type": "Information disclosure",
@@ -3593,7 +3210,7 @@
               ],
               "threatFrequency": {
                 "tampering": 0,
-                "informationDisclosure": 3,
+                "informationDisclosure": 4,
                 "denialOfService": 0
               }
             },
@@ -3612,338 +3229,6 @@
             "vertices": [
               {
                 "x": 890,
-                "y": 240
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Respuesta web",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [
-                {
-                  "id": "526db2b9-d909-4f4c-8b14-466ab7cd4c81",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Information disclosure",
-                  "description": "Estas solicitudes se transmiten a través de la Internet pública y podrían ser interceptadas por un atacante.  ",
-                  "mitigation": "Las solicitudes deberían requerir HTTPS/S. Esto proporcionara confidencialidad e integridad. HTTP no debe ser compatible. ",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 20,
-                  "score": ""
-                },
-                {
-                  "id": "d16455e4-83b4-464c-824c-1ad3a77e93ba",
-                  "title": "New STRIDE threat",
-                  "status": "Mitigated",
-                  "severity": "High",
-                  "type": "Information disclosure",
-                  "description": "Un atacante podría utilizar un mal mensaje de error para obtener información confidencial ",
-                  "mitigation": "Todas las excepciones se manejan de manera estructurada ",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 35,
-                  "score": ""
-                }
-              ],
-              "threatFrequency": {
-                "tampering": 0,
-                "informationDisclosure": 4,
-                "denialOfService": 0
-              }
-            },
-            "labels": [
-              "Respuesta web"
-            ],
-            "id": "3afc263e-5bde-43ee-8b0a-1392383c0bcf",
-            "source": {
-              "cell": "32252ee5-1b3a-49eb-8737-1940dbe01006",
-              "port": "b007472f-600e-4073-b462-8bf23977aeba"
-            },
-            "target": {
-              "cell": "f9d7d702-fd86-4b1d-b4b7-914c6ea54f8e",
-              "port": "9193065c-a207-424e-9c56-777e401f0c91"
-            },
-            "vertices": [
-              {
-                "x": 630,
-                "y": 320
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Respuesta web",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [
-                {
-                  "id": "526db2b9-d909-4f4c-8b14-466ab7cd4c81",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Information disclosure",
-                  "description": "Estas solicitudes se transmiten a través de la Internet pública y podrían ser interceptadas por un atacante.  ",
-                  "mitigation": "Las solicitudes deberían requerir HTTPS/S. Esto proporcionara confidencialidad e integridad. HTTP no debe ser compatible. ",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 20,
-                  "score": ""
-                },
-                {
-                  "id": "dcca38ee-00ab-4747-b6a5-439a229eceaa",
-                  "title": "New STRIDE threat",
-                  "status": "Mitigated",
-                  "severity": "High",
-                  "type": "Information disclosure",
-                  "description": "Un atacante podría utilizar un mal mensaje de error para obtener información confidencial ",
-                  "mitigation": "Todas las excepciones se manejan de manera estructurada ",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 36,
-                  "score": ""
-                }
-              ],
-              "threatFrequency": {
-                "tampering": 0,
-                "informationDisclosure": 3,
-                "denialOfService": 0
-              }
-            },
-            "labels": [
-              "Respuesta web"
-            ],
-            "id": "befbed3a-1b12-408a-8b96-20015ccde199",
-            "source": {
-              "cell": "d5c9dcb0-2aa7-4c95-b53a-605247f6d49f",
-              "port": "b007472f-600e-4073-b462-8bf23977aeba"
-            },
-            "target": {
-              "cell": "32252ee5-1b3a-49eb-8737-1940dbe01006",
-              "port": "9193065c-a207-424e-9c56-777e401f0c91"
-            },
-            "vertices": [
-              {
-                "x": 850,
-                "y": 330
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Respuesta web",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [
-                {
-                  "id": "526db2b9-d909-4f4c-8b14-466ab7cd4c81",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Information disclosure",
-                  "description": "Estas solicitudes se transmiten a través de la Internet pública y podrían ser interceptadas por un atacante.  ",
-                  "mitigation": "Las solicitudes deberían requerir HTTPS/S. Esto proporcionara confidencialidad e integridad. HTTP no debe ser compatible. ",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 20,
-                  "score": ""
-                },
-                {
-                  "id": "52fa8d1e-f5ff-4b87-bfe5-36e074e3a98e",
-                  "title": "New STRIDE threat",
-                  "status": "Mitigated",
-                  "severity": "High",
-                  "type": "Information disclosure",
-                  "description": "Un atacante podría utilizar un mal mensaje de error para obtener información confidencial ",
-                  "mitigation": "Todas las excepciones se manejan de manera estructurada ",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 31,
-                  "score": ""
-                }
-              ],
-              "threatFrequency": {
-                "tampering": 1,
-                "informationDisclosure": 2,
-                "denialOfService": 1
-              }
-            },
-            "labels": [
-              "Respuesta web"
-            ],
-            "id": "5cca8c6c-3afb-41f8-904e-6dd9048ace3d",
-            "source": {
-              "x": 480,
-              "y": 280
-            },
-            "target": {
-              "cell": "465f0472-f3ba-4f05-b032-5752e52817bf",
-              "port": "92cb5bdd-3935-4c0a-99fc-c722094ca721"
-            },
-            "vertices": [
-              {
-                "x": 350,
-                "y": 280
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Respuesta web",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [
-                {
-                  "id": "526db2b9-d909-4f4c-8b14-466ab7cd4c81",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Information disclosure",
-                  "description": "Estas solicitudes se transmiten a través de la Internet pública y podrían ser interceptadas por un atacante.  ",
-                  "mitigation": "Las solicitudes deberían requerir HTTPS/S. Esto proporcionara confidencialidad e integridad. HTTP no debe ser compatible. ",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 20,
-                  "score": ""
-                },
-                {
-                  "id": "e52ef952-6cfd-4929-95d2-72d7586a6e7a",
-                  "title": "New STRIDE threat",
-                  "status": "Mitigated",
-                  "severity": "High",
-                  "type": "Information disclosure",
-                  "description": "Un atacante podría utilizar un mal mensaje de error para obtener información confidencial ",
-                  "mitigation": "Todas las excepciones se manejan de manera estructurada ",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 32,
-                  "score": ""
-                }
-              ],
-              "threatFrequency": {
-                "tampering": 1,
-                "informationDisclosure": 2,
-                "denialOfService": 1
-              }
-            },
-            "labels": [
-              "Respuesta web"
-            ],
-            "id": "aa6f216a-ed0f-43c5-a753-d1b97e8c3af0",
-            "source": {
-              "x": 470,
-              "y": 250
-            },
-            "target": {
-              "cell": "94f76414-8a81-4404-87fc-85fc7560c82e",
-              "port": "92cb5bdd-3935-4c0a-99fc-c722094ca721"
-            },
-            "vertices": [
-              {
-                "x": 300,
                 "y": 240
               }
             ]
@@ -4079,6 +3364,711 @@
                 "y": 400
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Petición web",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "526db2b9-d909-4f4c-8b14-466ab7cd4c81",
+                  "title": "El flujo de datos debe utilizar HTTP/S  ",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Estas solicitudes se transmiten a través de la Internet pública y podrían ser interceptadas por un atacante.  ",
+                  "mitigation": "Las solicitudes deberían requerir HTTPS/S. Esto proporcionara confidencialidad e integridad. HTTP no debe ser compatible. ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 20,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 2,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Petición web"
+            ],
+            "id": "8c964216-aa21-4569-9d29-dcc098808037",
+            "source": {
+              "cell": "465f0472-f3ba-4f05-b032-5752e52817bf",
+              "port": "92cb5bdd-3935-4c0a-99fc-c722094ca721"
+            },
+            "target": {
+              "x": 480,
+              "y": 300
+            },
+            "vertices": [
+              {
+                "x": 340,
+                "y": 330
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Petición web",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "fc45490d-dd70-436a-8aec-8ac73974ff34",
+                  "title": "El flujo de datos debe utilizar HTTP/S  ",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Estas solicitudes se transmiten a través de la Internet pública y podrían ser interceptadas por un atacante.  ",
+                  "mitigation": "Las solicitudes deberían requerir HTTPS/S. Esto proporcionara confidencialidad e integridad. HTTP no debe ser compatible. ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 28,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 3,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Petición web"
+            ],
+            "id": "315fcb10-c37e-4834-ad95-eedc24abeb54",
+            "source": {
+              "cell": "f9d7d702-fd86-4b1d-b4b7-914c6ea54f8e",
+              "port": "9193065c-a207-424e-9c56-777e401f0c91"
+            },
+            "target": {
+              "cell": "32252ee5-1b3a-49eb-8737-1940dbe01006",
+              "port": "b007472f-600e-4073-b462-8bf23977aeba"
+            },
+            "vertices": [
+              {
+                "x": 620,
+                "y": 260
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Petición web",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "526db2b9-d909-4f4c-8b14-466ab7cd4c81",
+                  "title": "El flujo de datos debe utilizar HTTP/S  ",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Estas solicitudes se transmiten a través de la Internet pública y podrían ser interceptadas por un atacante.  ",
+                  "mitigation": "Las solicitudes deberían requerir HTTPS/S. Esto proporcionara confidencialidad e integridad. HTTP no debe ser compatible. ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 20,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 2,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Petición web"
+            ],
+            "id": "f6a5cfef-84d9-4555-a499-2a4e50bfa270",
+            "source": {
+              "cell": "b7ab3ad9-58e3-4a26-94cc-e2bc178c48ad",
+              "port": "92cb5bdd-3935-4c0a-99fc-c722094ca721"
+            },
+            "target": {
+              "x": 480,
+              "y": 350
+            },
+            "vertices": [
+              {
+                "x": 330,
+                "y": 430
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Petición web",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "526db2b9-d909-4f4c-8b14-466ab7cd4c81",
+                  "title": "El flujo de datos debe utilizar HTTP/S  ",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Estas solicitudes se transmiten a través de la Internet pública y podrían ser interceptadas por un atacante.  ",
+                  "mitigation": "Las solicitudes deberían requerir HTTPS/S. Esto proporcionara confidencialidad e integridad. HTTP no debe ser compatible. ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 20,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 3,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Petición web"
+            ],
+            "id": "b8e5e0f7-55a0-4d9c-8551-62b5fb4d2c9b",
+            "source": {
+              "cell": "94f76414-8a81-4404-87fc-85fc7560c82e",
+              "port": "92cb5bdd-3935-4c0a-99fc-c722094ca721"
+            },
+            "target": {
+              "x": 490,
+              "y": 240
+            },
+            "vertices": [
+              {
+                "x": 350,
+                "y": 170
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Respuesta web",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "526db2b9-d909-4f4c-8b14-466ab7cd4c81",
+                  "title": "El flujo de datos debe utilizar HTTP/S  ",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Estas solicitudes se transmiten a través de la Internet pública y podrían ser interceptadas por un atacante.  ",
+                  "mitigation": "Las solicitudes deberían requerir HTTPS/S. Esto proporcionara confidencialidad e integridad. HTTP no debe ser compatible. ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 20,
+                  "score": ""
+                },
+                {
+                  "id": "dcca38ee-00ab-4747-b6a5-439a229eceaa",
+                  "title": "Mensaje con información confidencial ",
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Un atacante podría utilizar un mal mensaje de error para obtener información confidencial ",
+                  "mitigation": "Todas las excepciones se manejan de manera estructurada ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 36,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 5,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Respuesta web"
+            ],
+            "id": "befbed3a-1b12-408a-8b96-20015ccde199",
+            "source": {
+              "cell": "d5c9dcb0-2aa7-4c95-b53a-605247f6d49f",
+              "port": "b007472f-600e-4073-b462-8bf23977aeba"
+            },
+            "target": {
+              "cell": "32252ee5-1b3a-49eb-8737-1940dbe01006",
+              "port": "9193065c-a207-424e-9c56-777e401f0c91"
+            },
+            "vertices": [
+              {
+                "x": 850,
+                "y": 330
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Respuesta web",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "526db2b9-d909-4f4c-8b14-466ab7cd4c81",
+                  "title": "El flujo de datos debe utilizar HTTP/S  ",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Estas solicitudes se transmiten a través de la Internet pública y podrían ser interceptadas por un atacante.  ",
+                  "mitigation": "Las solicitudes deberían requerir HTTPS/S. Esto proporcionara confidencialidad e integridad. HTTP no debe ser compatible. ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 20,
+                  "score": ""
+                },
+                {
+                  "id": "d16455e4-83b4-464c-824c-1ad3a77e93ba",
+                  "title": "Mensaje con información confidencial ",
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Un atacante podría utilizar un mal mensaje de error para obtener información confidencial ",
+                  "mitigation": "Todas las excepciones se manejan de manera estructurada ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 35,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 6,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Respuesta web"
+            ],
+            "id": "3afc263e-5bde-43ee-8b0a-1392383c0bcf",
+            "source": {
+              "cell": "32252ee5-1b3a-49eb-8737-1940dbe01006",
+              "port": "b007472f-600e-4073-b462-8bf23977aeba"
+            },
+            "target": {
+              "cell": "f9d7d702-fd86-4b1d-b4b7-914c6ea54f8e",
+              "port": "9193065c-a207-424e-9c56-777e401f0c91"
+            },
+            "vertices": [
+              {
+                "x": 630,
+                "y": 320
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Respuesta web",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "526db2b9-d909-4f4c-8b14-466ab7cd4c81",
+                  "title": "El flujo de datos debe utilizar HTTP/S  ",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Estas solicitudes se transmiten a través de la Internet pública y podrían ser interceptadas por un atacante.  ",
+                  "mitigation": "Las solicitudes deberían requerir HTTPS/S. Esto proporcionara confidencialidad e integridad. HTTP no debe ser compatible. ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 20,
+                  "score": ""
+                },
+                {
+                  "id": "b255faeb-221b-4a4e-a49a-17b2a50dcaa1",
+                  "title": "Mensaje con información confidencial ",
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Un atacante podría utilizar un mal mensaje de error para obtener información confidencial ",
+                  "mitigation": "Todas las excepciones se manejan de manera estructurada ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 30,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 4,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Respuesta web"
+            ],
+            "id": "60e0b3e0-bfff-4d9f-b1e7-99e496fcd0a7",
+            "source": {
+              "x": 480,
+              "y": 330
+            },
+            "target": {
+              "cell": "b7ab3ad9-58e3-4a26-94cc-e2bc178c48ad",
+              "port": "92cb5bdd-3935-4c0a-99fc-c722094ca721"
+            },
+            "vertices": [
+              {
+                "x": 340,
+                "y": 370
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Respuesta web",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "526db2b9-d909-4f4c-8b14-466ab7cd4c81",
+                  "title": "El flujo de datos debe utilizar HTTP/S  ",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Estas solicitudes se transmiten a través de la Internet pública y podrían ser interceptadas por un atacante.  ",
+                  "mitigation": "Las solicitudes deberían requerir HTTPS/S. Esto proporcionara confidencialidad e integridad. HTTP no debe ser compatible. ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 20,
+                  "score": ""
+                },
+                {
+                  "id": "52fa8d1e-f5ff-4b87-bfe5-36e074e3a98e",
+                  "title": "Mensaje con información confidencial ",
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Un atacante podría utilizar un mal mensaje de error para obtener información confidencial ",
+                  "mitigation": "Todas las excepciones se manejan de manera estructurada ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 31,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 4,
+                "denialOfService": 1
+              }
+            },
+            "labels": [
+              "Respuesta web"
+            ],
+            "id": "5cca8c6c-3afb-41f8-904e-6dd9048ace3d",
+            "source": {
+              "x": 480,
+              "y": 280
+            },
+            "target": {
+              "cell": "465f0472-f3ba-4f05-b032-5752e52817bf",
+              "port": "92cb5bdd-3935-4c0a-99fc-c722094ca721"
+            },
+            "vertices": [
+              {
+                "x": 350,
+                "y": 280
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Respuesta web",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "526db2b9-d909-4f4c-8b14-466ab7cd4c81",
+                  "title": "El flujo de datos debe utilizar HTTP/S  ",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Estas solicitudes se transmiten a través de la Internet pública y podrían ser interceptadas por un atacante.  ",
+                  "mitigation": "Las solicitudes deberían requerir HTTPS/S. Esto proporcionara confidencialidad e integridad. HTTP no debe ser compatible. ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 20,
+                  "score": ""
+                },
+                {
+                  "id": "e52ef952-6cfd-4929-95d2-72d7586a6e7a",
+                  "title": "Mensaje con información confidencial ",
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Un atacante podría utilizar un mal mensaje de error para obtener información confidencial ",
+                  "mitigation": "Todas las excepciones se manejan de manera estructurada ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 32,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 4,
+                "denialOfService": 1
+              }
+            },
+            "labels": [
+              "Respuesta web"
+            ],
+            "id": "aa6f216a-ed0f-43c5-a753-d1b97e8c3af0",
+            "source": {
+              "x": 470,
+              "y": 250
+            },
+            "target": {
+              "cell": "94f76414-8a81-4404-87fc-85fc7560c82e",
+              "port": "92cb5bdd-3935-4c0a-99fc-c722094ca721"
+            },
+            "vertices": [
+              {
+                "x": 300,
+                "y": 240
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
