@@ -2160,7 +2160,7 @@
               "threats": [
                 {
                   "id": "82cdb624-d942-400c-85e8-2e8fc6aa0bf1",
-                  "title": "New STRIDE threat",
+                  "title": "Modificación sin autorización ",
                   "status": "Mitigated",
                   "severity": "High",
                   "type": "Tampering",
@@ -2173,11 +2173,18 @@
                 }
               ],
               "threatFrequency": {
-                "tampering": 2,
+                "tampering": 3,
                 "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 0
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -2433,7 +2440,7 @@
               "threats": [
                 {
                   "id": "82cdb624-d942-400c-85e8-2e8fc6aa0bf1",
-                  "title": "New STRIDE threat",
+                  "title": "Denegación de servicio  ",
                   "status": "Open",
                   "severity": "High",
                   "type": "Denial of service",
@@ -2450,7 +2457,7 @@
                 "tampering": 0,
                 "repudiation": 0,
                 "informationDisclosure": 0,
-                "denialOfService": 1,
+                "denialOfService": 2,
                 "elevationOfPrivilege": 0
               }
             }
@@ -2574,7 +2581,7 @@
               "threats": [
                 {
                   "id": "82cdb624-d942-400c-85e8-2e8fc6aa0bf1",
-                  "title": "New STRIDE threat",
+                  "title": "Ataque de fuerza bruta",
                   "status": "Mitigated",
                   "severity": "High",
                   "type": "Elevation of privilege",
@@ -2592,7 +2599,7 @@
                 "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
-                "elevationOfPrivilege": 1
+                "elevationOfPrivilege": 2
               }
             }
           },
@@ -2750,13 +2757,6 @@
                 "informationDisclosure": 5,
                 "denialOfService": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -4199,7 +4199,7 @@
               "threats": [
                 {
                   "id": "82cdb624-d942-400c-85e8-2e8fc6aa0bf1",
-                  "title": "New STRIDE threat",
+                  "title": "Denegación de servicio  ",
                   "status": "Open",
                   "severity": "High",
                   "type": "Denial of service",
@@ -4216,7 +4216,7 @@
                 "tampering": 0,
                 "repudiation": 0,
                 "informationDisclosure": 0,
-                "denialOfService": 1,
+                "denialOfService": 2,
                 "elevationOfPrivilege": 0
               }
             }
