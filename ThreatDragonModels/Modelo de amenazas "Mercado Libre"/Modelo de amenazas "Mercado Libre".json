@@ -313,7 +313,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Respuesta HTTPS",
+              "name": "Respuesta web",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -344,7 +344,7 @@
               }
             },
             "labels": [
-              "Respuesta HTTPS"
+              "Respuesta web"
             ],
             "id": "ca99f60e-e505-4244-acf7-93a223c7c12b",
             "source": {
@@ -387,7 +387,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Respuesta HTTPS",
+              "name": "Respuesta web",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -418,7 +418,7 @@
               }
             },
             "labels": [
-              "Respuesta HTTPS"
+              "Respuesta web"
             ],
             "id": "7c0597b9-17af-4c90-8f82-f4f6bb862daa",
             "source": {
@@ -457,7 +457,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Petición HTTPS",
+              "name": "Petición web",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -488,7 +488,7 @@
               }
             },
             "labels": [
-              "Petición HTTPS"
+              "Petición web"
             ],
             "id": "62d4dccb-5025-4048-947f-b0bcaed6545f",
             "source": {
@@ -726,7 +726,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Petición HTTPS",
+              "name": "Petición web",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -757,7 +757,7 @@
               }
             },
             "labels": [
-              "Petición HTTPS"
+              "Petición web"
             ],
             "id": "7a980120-ac81-4dc6-9531-c20b96babcc5",
             "source": {
@@ -796,7 +796,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Respuesta HTTPS",
+              "name": "Respuesta web",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -827,7 +827,7 @@
               }
             },
             "labels": [
-              "Respuesta HTTPS"
+              "Respuesta web"
             ],
             "id": "743c7b3e-61f9-481f-8060-bcde52dd123d",
             "source": {
@@ -975,7 +975,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Petición HTTPS",
+              "name": "Petición web",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1006,7 +1006,7 @@
               }
             },
             "labels": [
-              "Petición HTTPS"
+              "Petición web"
             ],
             "id": "83b373b8-c5a5-4ad4-bd31-a5846a8907b6",
             "source": {
@@ -1045,7 +1045,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Petición HTTPS",
+              "name": "Petición web",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1076,7 +1076,7 @@
               }
             },
             "labels": [
-              "Petición HTTPS"
+              "Petición web"
             ],
             "id": "eb3c69ce-bac8-4a57-bfd5-cbcd9a6722a1",
             "source": {
@@ -1115,7 +1115,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Respuesta HTTPS",
+              "name": "Respuesta web",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1146,7 +1146,7 @@
               }
             },
             "labels": [
-              "Respuesta HTTPS"
+              "Respuesta web"
             ],
             "id": "a4c0b247-6425-4f14-8384-e4484eb54037",
             "source": {
@@ -1165,6 +1165,56 @@
               {
                 "x": -6550,
                 "y": -2410
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": "4 3"
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Leer archivo \nconfiguración",
+              "description": "",
+              "outOfScope": true,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Leer archivo \nconfiguración"
+            ],
+            "id": "a8b44e8d-0ce0-429b-b663-7bfef587ca33",
+            "source": {
+              "cell": "8971bc29-098a-484c-8f48-5fff6ce62570",
+              "port": "e91cdd8e-1650-4676-a242-c48ad472157b"
+            },
+            "target": {
+              "cell": "b770a7bb-2e8d-4349-83dc-05edc2b470d5",
+              "port": "f01827b2-d1fb-485f-ac77-e4d68367299f"
+            },
+            "vertices": [
+              {
+                "x": -6260,
+                "y": -2210
               }
             ]
           },
@@ -1885,8 +1935,8 @@
           },
           {
             "position": {
-              "x": -6460,
-              "y": -2240
+              "x": -6515.75,
+              "y": -2230
             },
             "size": {
               "width": 120,
@@ -1894,7 +1944,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Archivo de configuración"
+                "text": "Archivo configuración"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -1907,6 +1957,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -1990,10 +2041,9 @@
               ]
             },
             "id": "8971bc29-098a-484c-8f48-5fff6ce62570",
-            "zIndex": 16,
             "data": {
               "type": "tm.Store",
-              "name": "Archivo de configuración",
+              "name": "Archivo configuración",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
